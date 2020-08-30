@@ -17,7 +17,7 @@
 	border-radius: 5%;
     margin: auto;
     overflow: hidden;
-	background-color: #ffffff;
+	background-color: #C0FFFF;
 }
 #ねこ{
     width: 30px;
@@ -46,7 +46,7 @@
 .hole{
     width: 40px;
     height: 20px;
-    background-color: white;
+    background-color: #C0FFFF;
     position: relative;
     top: 100px;
     margin-top: -20px;

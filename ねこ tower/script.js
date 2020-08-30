@@ -60,7 +60,7 @@ var blocks = setInterval(function(){
     var ねこLeft = parseInt(window.getComputedStyle(ねこ).getPropertyValue("left"));
     var drop = 0;
     if(ねこTop <= 0){
-        alert("Game over. Score: "+(counter-9));
+        alert("GAME OVER (✖╭╮✖) Score: "+(counter-9));
         clearInterval(blocks);
         location.reload();
     }
