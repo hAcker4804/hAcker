@@ -11,6 +11,7 @@ body {
   color: #ffffff;
   font-family: 'Comfortaa', cursive;
   min-height: 100vh;
+  background-image: linear-gradient(#ff005f, #0d005f);
 }
 
 a:link {
@@ -42,6 +43,20 @@ header {
 	align-content: space-around;
   background-image: linear-gradient(to bottom right, #00ffc4, #0d005f);
   padding: 10px;
+  height: 10vmax;
+  font-size: 1.5vmax;
+}
+
+#logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 8vmax;
+  height: 8vmax;
+  border-radius: 100%;
+  background-color: #000000;
+  color: #00ffc4;
+  font-size: 2vmax;
 }
 
 main {
@@ -54,9 +69,11 @@ main {
 }
 
 #subMain {
-    margin: 10px;
-    padding: 10px;
-    width: 80%;
+  background-color: #000000;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  width: 80%;
 }
 
 footer {
@@ -100,13 +117,8 @@ h6 {
   font-weight: bold;
 }
 
-
-#logo {
-  border-radius: 100%;
-}
-
 .logo {
-  width: 50px;
+  width: 5vmax;
 }
 
 #info {
@@ -116,7 +128,7 @@ h6 {
 #websites {
   display: flex;
   flex-direction: row;
-	flex-wrap: nowrap;
+	flex-wrap: wrap;
 	justify-content: space-around;
 	align-items: center;
 	align-content: space-around;
@@ -129,11 +141,17 @@ h6 {
   justify-content: space-around;
 	align-items: center;
 	align-content: space-around;
-  width: 20%;
-  height:200px;
+  width: 15vmax;
+  height:15vmax;
   background: #0d005f;
   border-radius: 10px;
   padding: 10px;
+  margin: 10px;
+  font-size: 2vmax;
+  color: #000000;
+}
+#youtube:hover{
+  background-image: linear-gradient(to bottom right, #00ffc4, #0d005f);
 }
 
 #soundcloud {
@@ -142,11 +160,18 @@ h6 {
   justify-content: space-around;
 	align-items: center;
 	align-content: space-around;
-  width: 20%;
-  height:200px;
+  width: 15vmax;
+  height:15vmax;
   background: #0d005f;
   border-radius: 10px;
   padding: 10px;
+  margin: 10px;
+  font-size: 2vmax;
+  color: #000000;
+}
+
+#soundcloud:hover{
+  background-image: linear-gradient(to bottom right, #00ffc4, #0d005f);
 }
 
 #instagram {
@@ -155,11 +180,18 @@ h6 {
   justify-content: space-around;
 	align-items: center;
 	align-content: space-around;
-  width: 20%;
-  height:200px;
+  width: 15vmax;
+  height:15vmax;
   background: #0d005f;
   border-radius: 10px;
   padding: 10px;
+  margin: 10px;
+  font-size: 2vmax;
+  color: #000000;
+}
+
+#instagram:hover{
+  background-image: linear-gradient(to bottom right, #00ffc4, #0d005f);
 }
 
 #madeBy {
