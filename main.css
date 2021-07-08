@@ -42,7 +42,7 @@ header {
 	align-items: center;
 	align-content: space-around;
   background-image: linear-gradient(to bottom right, #00ffc4, #0d005f);
-  padding: 10px;
+  padding: 1vmax;
   height: 10vmax;
   font-size: 1.5vmax;
 }
@@ -70,55 +70,56 @@ main {
 
 #subMain {
   background-color: #000000;
-  border-radius: 10px;
-  margin: 10px;
-  padding: 10px;
+  border-radius: 2vmax;
+  margin: 2vmax;
+  padding: 1vmax;
   width: 80%;
 }
 
 footer {
   position: sticky;
   top: 100%;
-  padding: 10px;
-  background: #0d005f;
+  padding: 1vmax;
+  background: #000000;
 }
 
 p {
-  margin: 10px;
+  margin: 2vmax;
 }
 
 h1 {
-  margin: 10px;
+  margin: 2vmax;
   font-weight: bold;
 }
 
 h2 {
-  margin: 10px;
+  margin: 2vmax;
   font-weight: bold;
 }
 
 h3 {
-  margin: 10px;
+  margin: 2vmax;
   font-weight: bold;
 }
 
 h4 {
-  margin: 10px;
+  margin: 2vmax;
   font-weight: bold;
 }
 
 h5 {
-  margin: 10px;
+  margin: 2vmax;
   font-weight: bold;
 }
 
 h6 {
-  margin: 10px;
+  margin: 2vmax;
   font-weight: bold;
 }
 
 .logo {
-  width: 5vmax;
+  width: 4vmax;
+  filter: invert();
 }
 
 #info {
@@ -132,7 +133,7 @@ h6 {
 	justify-content: space-around;
 	align-items: center;
 	align-content: space-around;
-  padding: 10px;
+  padding: 1vmax;
 }
 
 #youtube {
@@ -144,11 +145,11 @@ h6 {
   width: 15vmax;
   height:15vmax;
   background: #0d005f;
-  border-radius: 10px;
-  padding: 10px;
-  margin: 10px;
+  border-radius: 2vmax;
+  padding: 1vmax;
+  margin: 2vmax;
   font-size: 2vmax;
-  color: #000000;
+  color: #ffffff;
 }
 #youtube:hover{
   background-image: linear-gradient(to bottom right, #00ffc4, #0d005f);
@@ -163,11 +164,11 @@ h6 {
   width: 15vmax;
   height:15vmax;
   background: #0d005f;
-  border-radius: 10px;
-  padding: 10px;
-  margin: 10px;
+  border-radius: 2vmax;
+  padding: 1vmax;
+  margin: 2vmax;
   font-size: 2vmax;
-  color: #000000;
+  color: #ffffff;
 }
 
 #soundcloud:hover{
@@ -183,11 +184,11 @@ h6 {
   width: 15vmax;
   height:15vmax;
   background: #0d005f;
-  border-radius: 10px;
-  padding: 10px;
-  margin: 10px;
+  border-radius: 2vmax;
+  padding: 1vmax;
+  margin: 2vmax;
   font-size: 2vmax;
-  color: #000000;
+  color: #ffffff;
 }
 
 #instagram:hover{
@@ -197,3 +198,4 @@ h6 {
 #madeBy {
   font-size: 10px;
 }
+
